@@ -225,7 +225,6 @@ class ViewController: UIViewController {
     func calculate() -> Double {
         let firstNumber = Double(firstValue)!
         let secondNumber = Double(secondValue)!
-        if displayString.ha
         firstValue = ""
         secondValue = ""
         displayString = ""
