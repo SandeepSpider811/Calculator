@@ -4,7 +4,7 @@
 //
 //  Created by Sierra 4 on 30/01/17.
 //  Copyright © 2017 Sierra 4. All rights reserved.
-//
+
 
 import UIKit
 
@@ -19,23 +19,23 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var lblInput: UILabel!
     
+    @IBOutlet weak var btnSevenOutlet: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
-    
     @IBAction func btnSeven(_ sender: Any) {
         if operation == "" {
             firstValue = firstValue+"7"
             displayString = displayString+"7"
-        }else {
+        } else {
             secondValue = secondValue+"7"
             displayString = displayString+"7"
         }
         lblInput.text = displayString
     }
-    
     
     @IBAction func btnEight(_ sender: Any) {
         if operation == "" {
@@ -150,6 +150,12 @@ class ViewController: UIViewController {
         operation = "/"
         if firstValue != "" {
             displayString = displayString+"/"
+        } else {
+            lblOutput.text = "Enter values first"
+            firstValue = ""
+            secondValue = ""
+            displayString = ""
+            operation = ""
         }
         lblInput.text = displayString
     }
@@ -158,6 +164,12 @@ class ViewController: UIViewController {
         operation = "*"
         if firstValue != "" {
             displayString = displayString+"*"
+        } else {
+            lblOutput.text = "Enter values first"
+            firstValue = ""
+            secondValue = ""
+            displayString = ""
+            operation = ""
         }
         lblInput.text = displayString
     }
@@ -166,6 +178,12 @@ class ViewController: UIViewController {
         operation = "-"
         if firstValue != "" {
             displayString = displayString+"-"
+        } else {
+            lblOutput.text = "Enter values first"
+            firstValue = ""
+            secondValue = ""
+            displayString = ""
+            operation = ""
         }
         lblInput.text = displayString
     }
@@ -174,14 +192,25 @@ class ViewController: UIViewController {
         operation = "+"
         if firstValue != "" {
             displayString = displayString+"+"
+        } else {
+            lblOutput.text = "Enter values first"
+            firstValue = ""
+            secondValue = ""
+            displayString = ""
+            operation = ""
         }
         lblInput.text = displayString
     }
    
     @IBAction func btnEqualTo(_ sender: Any) {
-        let result = calculate()
-        lblOutput.text = "Result: \(result)"
-       
+        if operation == "" || firstValue == "" || secondValue == "" {
+            lblOutput.text = "Please enter correct values"
+            displayString = ""
+            lblInput.text = ""
+        } else {
+            let result = calculate()
+            lblOutput.text = "= \(result)"
+        }
     }
     
     @IBAction func btnCancel(_ sender: Any) {
@@ -196,8 +225,10 @@ class ViewController: UIViewController {
     func calculate() -> Double {
         let firstNumber = Double(firstValue)!
         let secondNumber = Double(secondValue)!
+        if displayString.ha
         firstValue = ""
         secondValue = ""
+        displayString = ""
         switch operation {
         case "+":
             operation = ""
@@ -206,7 +237,7 @@ class ViewController: UIViewController {
             operation = ""
             return firstNumber - secondNumber
         case "*":
-             operation = ""
+            operation = ""
             return firstNumber * secondNumber
         case "/":
             operation = ""

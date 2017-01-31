@@ -29,7 +29,7 @@
                                         <rect key="frame" x="18" y="16" width="296" height="108"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qhk-Ib-TQ4">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter Digits" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qhk-Ib-TQ4">
                                                 <rect key="frame" x="8" y="60" width="280" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
@@ -40,31 +40,21 @@
                                                 <rect key="frame" x="16" y="8" width="272" height="44"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                                <color key="textColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eli-py-DJY">
-                                        <rect key="frame" x="18" y="132" width="68" height="54"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.89208306227905854" green="1" blue="0.98116665700929429" alpha="0.93483164612676062" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <state key="normal" title="7">
-                                            <color key="titleColor" red="0.24731900685809438" green="0.24731900685809438" blue="0.24731900685809438" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="btnSeven:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YAf-xg-T4S"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IfC-fK-9of">
                                         <rect key="frame" x="94" y="132" width="68" height="54"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.89208306227905854" green="1" blue="0.98116665700929429" alpha="0.93483164612676062" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <size key="titleShadowOffset" width="1" height="2"/>
                                         <state key="normal" title="8">
                                             <color key="titleColor" red="0.24731900685809438" green="0.24731900685809438" blue="0.24731900685809438" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="btnEight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2hn-6C-bJH"/>
@@ -75,8 +65,10 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.89208306227905854" green="1" blue="0.98116665700929429" alpha="0.93483164612676062" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <size key="titleShadowOffset" width="1" height="2"/>
                                         <state key="normal" title="9">
                                             <color key="titleColor" red="0.24731900685809438" green="0.24731900685809438" blue="0.24731900685809438" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="btnNine:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jNx-eU-XKz"/>
@@ -87,8 +79,10 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.89208306227905854" green="1" blue="0.98116665700929429" alpha="0.93483164612676062" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <size key="titleShadowOffset" width="1" height="2"/>
                                         <state key="normal" title="4">
                                             <color key="titleColor" red="0.24731900685809438" green="0.24731900685809438" blue="0.24731900685809438" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="btnFour:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Eo-B7-yKe"/>
@@ -99,8 +93,10 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.89208306227905854" green="1" blue="0.98116665700929429" alpha="0.93483164612676062" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <size key="titleShadowOffset" width="1" height="2"/>
                                         <state key="normal" title="6">
                                             <color key="titleColor" red="0.24731900685809438" green="0.24731900685809438" blue="0.24731900685809438" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="btnSix:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uro-oD-dsR"/>
@@ -111,8 +107,10 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.89208306227905854" green="1" blue="0.98116665700929429" alpha="0.93483164612676062" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <size key="titleShadowOffset" width="1" height="2"/>
                                         <state key="normal" title="5">
                                             <color key="titleColor" red="0.24731900685809438" green="0.24731900685809438" blue="0.24731900685809438" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="btnFive:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pb2-pt-VSf"/>
@@ -123,8 +121,10 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.89208306227905854" green="1" blue="0.98116665700929429" alpha="0.93483164612676062" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <size key="titleShadowOffset" width="1" height="2"/>
                                         <state key="normal" title="2">
                                             <color key="titleColor" red="0.24731900685809438" green="0.24731900685809438" blue="0.24731900685809438" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="btnTwo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qjD-lT-4lf"/>
@@ -135,8 +135,10 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.89208306227905854" green="1" blue="0.98116665700929429" alpha="0.93483164612676062" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <size key="titleShadowOffset" width="1" height="2"/>
                                         <state key="normal" title="3">
                                             <color key="titleColor" red="0.24731900685809438" green="0.24731900685809438" blue="0.24731900685809438" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="btnThree:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KaL-bT-yW7"/>
@@ -147,8 +149,10 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <size key="titleShadowOffset" width="1" height="2"/>
                                         <state key="normal" title="\">
-                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="btnDivide:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PX8-ZT-Hbh"/>
@@ -159,8 +163,10 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <size key="titleShadowOffset" width="1" height="2"/>
                                         <state key="normal" title="-">
-                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="btnMinus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mxf-oV-aJ9"/>
@@ -171,8 +177,10 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <size key="titleShadowOffset" width="1" height="2"/>
                                         <state key="normal" title="x">
-                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="btnMultiply:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C8L-hv-AdW"/>
@@ -183,8 +191,10 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <size key="titleShadowOffset" width="1" height="2"/>
                                         <state key="normal" title="+">
-                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="btnPlus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cxe-eM-ggj"/>
@@ -195,8 +205,10 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.89208306227905854" green="1" blue="0.98116665700929429" alpha="0.93483164612676062" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <size key="titleShadowOffset" width="1" height="2"/>
                                         <state key="normal" title="1">
                                             <color key="titleColor" red="0.24731900685809438" green="0.24731900685809438" blue="0.24731900685809438" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="btnOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="31w-D3-KKk"/>
@@ -207,8 +219,10 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.89208306227905854" green="1" blue="0.98116665700929429" alpha="0.93483164612676062" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <size key="titleShadowOffset" width="1" height="2"/>
                                         <state key="normal" title=".">
                                             <color key="titleColor" red="0.24731900685809438" green="0.24731900685809438" blue="0.24731900685809438" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="btnDot:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hOE-PZ-eft"/>
@@ -219,8 +233,10 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <size key="titleShadowOffset" width="1" height="2"/>
                                         <state key="normal" title="=">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="btnEqualTo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sio-YD-Kkj"/>
@@ -231,8 +247,10 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="0.78026005993150682" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <size key="titleShadowOffset" width="1" height="2"/>
                                         <state key="normal" title="Cancel">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="btnCancel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bh8-JS-hVx"/>
@@ -243,11 +261,27 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.89208306227905854" green="1" blue="0.98116665700929429" alpha="0.93483164612676062" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <size key="titleShadowOffset" width="1" height="2"/>
                                         <state key="normal" title="0">
                                             <color key="titleColor" red="0.24731900685809438" green="0.24731900685809438" blue="0.24731900685809438" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="btnZero:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gAw-Cx-eQ4"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eli-py-DJY">
+                                        <rect key="frame" x="18" y="132" width="68" height="54"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.89208306227905854" green="1" blue="0.98116665700929429" alpha="0.93483164612676062" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="25"/>
+                                        <size key="titleShadowOffset" width="1" height="2"/>
+                                        <state key="normal" title="7">
+                                            <color key="titleColor" red="0.24731900685809438" green="0.24731900685809438" blue="0.24731900685809438" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnSeven:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YAf-xg-T4S"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -257,6 +291,7 @@
                         <color key="backgroundColor" red="0.016898740892761135" green="0.054424384715025864" blue="0.020182698422222246" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
+                        <outlet property="btnSevenOutlet" destination="eli-py-DJY" id="0cY-23-WGn"/>
                         <outlet property="lblInput" destination="qhk-Ib-TQ4" id="UZw-I1-AQN"/>
                         <outlet property="lblOutput" destination="MHb-TY-x8g" id="BeH-pB-MQk"/>
                     </connections>
